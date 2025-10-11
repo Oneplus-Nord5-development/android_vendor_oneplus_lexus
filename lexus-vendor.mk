@@ -879,29 +879,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_bu52053nvx_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_default_sensors.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_dynamic_sensors.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_dynamic_sensors_template.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_dynamic_sensors_template.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_fcal_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_fcal_mmc56x3x_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_irq.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_lps22df_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_lps22df_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_lsm6dso_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_lsm6dso_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_lsm6dso_1.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_mmc56x3x_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_mtp_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_mtp_lsm6dso_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_mtp_lsm6dso_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_mtp_lsm6dso_1.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_mtp_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_mtp_mmc56x3x_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_power_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_qrd_lsm6dso_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_qrd_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_qrd_mmc56x3x_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_qrd_tmd2755_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_qrd_tmd2755_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_qsh_ble_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_qsh_ble_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_sx932x_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_tmd2755_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_tmd2755_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_vertigo_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_vertigo_lsm6dso_0.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_vertigo_lsm6dso_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_vertigo_lsm6dso_1.json \
-    vendor/oneplus/lexus/proprietary/vendor/etc/sensors/config/palawan_vertigo_mmc56x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/palawan_vertigo_mmc56x3x_0.json \
     vendor/oneplus/lexus/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/oneplus/lexus/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
@@ -1651,6 +1628,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
+    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform \
     vendor.oplus.hardware.displaypanelfeature-V1-ndk_odm \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
