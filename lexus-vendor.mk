@@ -791,6 +791,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/wifi/qca6750/bdwlan.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/qca6750/bdwlan.b0i \
     vendor/oneplus/lexus/proprietary/odm/etc/wifi/qca6750/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/qca6750/bdwlan.elf \
     vendor/oneplus/lexus/proprietary/odm/etc/wifi/qca6750/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/qca6750/regdb.bin \
+    vendor/oneplus/lexus/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
+    vendor/oneplus/lexus/proprietary/odm/firmware/aw8697_haptic_170.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170.bin \
+    vendor/oneplus/lexus/proprietary/odm/firmware/aw8697_haptic_170_soft.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic_170_soft.bin \
     vendor/oneplus/lexus/proprietary/odm/firmware/fastchg/24881/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/24881/charging_hyper_mode_config.txt \
     vendor/oneplus/lexus/proprietary/odm/firmware/fastchg/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/bms_heating_config.txt \
     vendor/oneplus/lexus/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
@@ -878,6 +881,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/perf_hint_threshold.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/perf_hint_threshold.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display/qdcm_calib_data_AA592_P_7_A0014_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_AA592_P_7_A0014_dsc_cmd_mode_panel.json \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/oneplus/lexus/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
@@ -887,6 +891,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/lexus/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AA592_P_7_A0014_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA592_P_7_A0014_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
     vendor/oneplus/lexus/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
