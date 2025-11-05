@@ -6993,7 +6993,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libPanelChaplin",
+    name: "libPanelChaplin_vendor",
+    stem: "libPanelChaplin",
     owner: "oneplus",
     strip: {
         none: true,
@@ -13947,6 +13948,42 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libc++_shared",
                 "liblog",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libPanelChaplin",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libPanelChaplin.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libbinder",
+                "libutilscallstack",
+                "libbinder_ndk",
+                "libhidlbase",
+                "libqservice",
+                "vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform",
+                "android.hardware.sensors@1.0",
+                "libsensorndkbridge",
+                "android.frameworks.sensorservice@1.0",
+                "libc++",
                 "libc",
                 "libm",
                 "libdl",

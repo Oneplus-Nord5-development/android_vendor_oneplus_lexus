@@ -6,6 +6,33 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/lexus
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_1_100nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_1_100nit.odf \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_1_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_1_2nit.odf \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_1_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_1_max.odf \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_2_100nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_2_100nit.odf \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_2_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_2_2nit.odf \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_2_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_2_max.odf \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Cinema_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Cinema_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EP3_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EP3_100nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EP3_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EP3_2nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EP3_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EP3_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EsRGB_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_EsRGB_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_HS:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_HS \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_LsRGB_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_LsRGB_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Nature_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Nature_100nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Nature_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Nature_2nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Nature_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Nature_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Vivid_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA592_P_7_A0014_dsc_cmd_mode_panel_Vivid_pGC.txt \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/AdjustValue:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AdjustValue \
+    vendor/oneplus/lexus/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
     vendor/oneplus/lexus/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
@@ -883,6 +910,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/perf_hint_threshold.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/perf_hint_threshold.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/qdcm_calib_data_AA592_P_7_A0014_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_AA592_P_7_A0014_dsc_cmd_mode_panel.json \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
+    vendor/oneplus/lexus/proprietary/vendor/etc/display_apollo_list_AA592_P_7_A0014_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA592_P_7_A0014_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
     vendor/oneplus/lexus/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
     vendor/oneplus/lexus/proprietary/vendor/etc/init/init.qti.graphics.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.graphics.rc \
@@ -890,9 +918,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/lexus/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/lexus/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA545_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AA592_P_7_A0014_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA592_P_7_A0014_dsc_cmd_mode_panel.xml \
-    vendor/oneplus/lexus/proprietary/vendor/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AC090_P_3_A0005_dsc_cmd_mode_panel.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
     vendor/oneplus/lexus/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
@@ -1278,7 +1304,7 @@ PRODUCT_PACKAGES += \
     com.qti.chi.offline \
     com.qti.chi.override \
     libGCore4Cell_32E2 \
-    libPanelChaplin \
+    libPanelChaplin_vendor \
     libRGBC \
     libSonyIMX471RmscLibrary \
     libaacvibrator \
@@ -1518,6 +1544,7 @@ PRODUCT_PACKAGES += \
     libOPLUSMotionDetection \
     libOplusPDCore \
     libOpo_awb \
+    libPanelChaplin \
     libPerfectColor \
     libPerfectlyClearCruxOpt \
     libPlatformValidatorShared \
