@@ -898,7 +898,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/vendor/firmware/alipay.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b07 \
     vendor/oneplus/lexus/proprietary/odm/vendor/firmware/alipay.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b08 \
     vendor/oneplus/lexus/proprietary/odm/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.mdt \
-    vendor/oneplus/lexus/proprietary/vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm \
+    vendor/oneplus/lexus/proprietary/vendor/etc/2025-03-17_platform_RSA_SM8635_license_a6f644da-0221-4cb4-ab44-a7d8397b3d13.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/2025-03-17_platform_RSA_SM8635_license_a6f644da-0221-4cb4-ab44-a7d8397b3d13.pfm \
     vendor/oneplus/lexus/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/oneplus/lexus/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
